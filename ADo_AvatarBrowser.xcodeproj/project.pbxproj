@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBB83FAA1B6A289A004EC941 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB83FA91B6A289A004EC941 /* main.m */; };
+		EBB83FAD1B6A289A004EC941 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB83FAC1B6A289A004EC941 /* AppDelegate.m */; };
+		EBB83FB01B6A289B004EC941 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB83FAF1B6A289B004EC941 /* ViewController.m */; };
+		EBB83FB31B6A289B004EC941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB83FB11B6A289B004EC941 /* Main.storyboard */; };
+		EBB83FB51B6A289B004EC941 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB83FB41B6A289B004EC941 /* Images.xcassets */; };
+		EBB83FB81B6A289B004EC941 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBB83FB61B6A289B004EC941 /* LaunchScreen.xib */; };
+		EBB83FC41B6A289B004EC941 /* ADo_AvatarBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB83FC31B6A289B004EC941 /* ADo_AvatarBrowserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBB83FBE1B6A289B004EC941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBB83F9C1B6A289A004EC941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBB83FA31B6A289A004EC941;
+			remoteInfo = ADo_AvatarBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBB83FA41B6A289A004EC941 /* ADo_AvatarBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADo_AvatarBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB83FA81B6A289A004EC941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB83FA91B6A289A004EC941 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBB83FAB1B6A289A004EC941 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBB83FAC1B6A289A004EC941 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBB83FAE1B6A289B004EC941 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBB83FAF1B6A289B004EC941 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBB83FB21B6A289B004EC941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBB83FB41B6A289B004EC941 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBB83FB71B6A289B004EC941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EBB83FBD1B6A289B004EC941 /* ADo_AvatarBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADo_AvatarBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB83FC21B6A289B004EC941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB83FC31B6A289B004EC941 /* ADo_AvatarBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADo_AvatarBrowserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBB83FA11B6A289A004EC941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB83FBA1B6A289B004EC941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBB83F9B1B6A289A004EC941 = {
+			isa = PBXGroup;
+			children = (
+				EBB83FA61B6A289A004EC941 /* ADo_AvatarBrowser */,
+				EBB83FC01B6A289B004EC941 /* ADo_AvatarBrowserTests */,
+				EBB83FA51B6A289A004EC941 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBB83FA51B6A289A004EC941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBB83FA41B6A289A004EC941 /* ADo_AvatarBrowser.app */,
+				EBB83FBD1B6A289B004EC941 /* ADo_AvatarBrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBB83FA61B6A289A004EC941 /* ADo_AvatarBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				EBB83FAB1B6A289A004EC941 /* AppDelegate.h */,
+				EBB83FAC1B6A289A004EC941 /* AppDelegate.m */,
+				EBB83FAE1B6A289B004EC941 /* ViewController.h */,
+				EBB83FAF1B6A289B004EC941 /* ViewController.m */,
+				EBB83FB11B6A289B004EC941 /* Main.storyboard */,
+				EBB83FB41B6A289B004EC941 /* Images.xcassets */,
+				EBB83FB61B6A289B004EC941 /* LaunchScreen.xib */,
+				EBB83FA71B6A289A004EC941 /* Supporting Files */,
+			);
+			path = ADo_AvatarBrowser;
+			sourceTree = "<group>";
+		};
+		EBB83FA71B6A289A004EC941 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBB83FA81B6A289A004EC941 /* Info.plist */,
+				EBB83FA91B6A289A004EC941 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBB83FC01B6A289B004EC941 /* ADo_AvatarBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBB83FC31B6A289B004EC941 /* ADo_AvatarBrowserTests.m */,
+				EBB83FC11B6A289B004EC941 /* Supporting Files */,
+			);
+			path = ADo_AvatarBrowserTests;
+			sourceTree = "<group>";
+		};
+		EBB83FC11B6A289B004EC941 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBB83FC21B6A289B004EC941 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBB83FA31B6A289A004EC941 /* ADo_AvatarBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB83FC71B6A289B004EC941 /* Build configuration list for PBXNativeTarget "ADo_AvatarBrowser" */;
+			buildPhases = (
+				EBB83FA01B6A289A004EC941 /* Sources */,
+				EBB83FA11B6A289A004EC941 /* Frameworks */,
+				EBB83FA21B6A289A004EC941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADo_AvatarBrowser;
+			productName = ADo_AvatarBrowser;
+			productReference = EBB83FA41B6A289A004EC941 /* ADo_AvatarBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBB83FBC1B6A289B004EC941 /* ADo_AvatarBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB83FCA1B6A289B004EC941 /* Build configuration list for PBXNativeTarget "ADo_AvatarBrowserTests" */;
+			buildPhases = (
+				EBB83FB91B6A289B004EC941 /* Sources */,
+				EBB83FBA1B6A289B004EC941 /* Frameworks */,
+				EBB83FBB1B6A289B004EC941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBB83FBF1B6A289B004EC941 /* PBXTargetDependency */,
+			);
+			name = ADo_AvatarBrowserTests;
+			productName = ADo_AvatarBrowserTests;
+			productReference = EBB83FBD1B6A289B004EC941 /* ADo_AvatarBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBB83F9C1B6A289A004EC941 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Nododo;
+				TargetAttributes = {
+					EBB83FA31B6A289A004EC941 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					EBB83FBC1B6A289B004EC941 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = EBB83FA31B6A289A004EC941;
+					};
+				};
+			};
+			buildConfigurationList = EBB83F9F1B6A289A004EC941 /* Build configuration list for PBXProject "ADo_AvatarBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBB83F9B1B6A289A004EC941;
+			productRefGroup = EBB83FA51B6A289A004EC941 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBB83FA31B6A289A004EC941 /* ADo_AvatarBrowser */,
+				EBB83FBC1B6A289B004EC941 /* ADo_AvatarBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBB83FA21B6A289A004EC941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB83FB31B6A289B004EC941 /* Main.storyboard in Resources */,
+				EBB83FB81B6A289B004EC941 /* LaunchScreen.xib in Resources */,
+				EBB83FB51B6A289B004EC941 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB83FBB1B6A289B004EC941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBB83FA01B6A289A004EC941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB83FB01B6A289B004EC941 /* ViewController.m in Sources */,
+				EBB83FAD1B6A289A004EC941 /* AppDelegate.m in Sources */,
+				EBB83FAA1B6A289A004EC941 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB83FB91B6A289B004EC941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB83FC41B6A289B004EC941 /* ADo_AvatarBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBB83FBF1B6A289B004EC941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBB83FA31B6A289A004EC941 /* ADo_AvatarBrowser */;
+			targetProxy = EBB83FBE1B6A289B004EC941 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBB83FB11B6A289B004EC941 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBB83FB21B6A289B004EC941 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBB83FB61B6A289B004EC941 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBB83FB71B6A289B004EC941 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBB83FC51B6A289B004EC941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBB83FC61B6A289B004EC941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBB83FC81B6A289B004EC941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADo_AvatarBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBB83FC91B6A289B004EC941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADo_AvatarBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBB83FCB1B6A289B004EC941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ADo_AvatarBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADo_AvatarBrowser.app/ADo_AvatarBrowser";
+			};
+			name = Debug;
+		};
+		EBB83FCC1B6A289B004EC941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ADo_AvatarBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADo_AvatarBrowser.app/ADo_AvatarBrowser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBB83F9F1B6A289A004EC941 /* Build configuration list for PBXProject "ADo_AvatarBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB83FC51B6A289B004EC941 /* Debug */,
+				EBB83FC61B6A289B004EC941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB83FC71B6A289B004EC941 /* Build configuration list for PBXNativeTarget "ADo_AvatarBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB83FC81B6A289B004EC941 /* Debug */,
+				EBB83FC91B6A289B004EC941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBB83FCA1B6A289B004EC941 /* Build configuration list for PBXNativeTarget "ADo_AvatarBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB83FCB1B6A289B004EC941 /* Debug */,
+				EBB83FCC1B6A289B004EC941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBB83F9C1B6A289A004EC941 /* Project object */;
+}
