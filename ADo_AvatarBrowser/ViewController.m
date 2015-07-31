@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "ADo_AvatarBrowser.h"
 @interface ViewController ()
+- (IBAction)show:(id)sender;
 
 @end
 
@@ -16,12 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)show:(id)sender
+{
+    UIButton *btn = (UIButton *)sender;
+    ADo_AvatarBrowser *browser = [[ADo_AvatarBrowser alloc] initWithFrame:[UIScreen mainScreen].bounds image:btn.imageView.image view:btn];
+    [browser show];
 }
-
 @end

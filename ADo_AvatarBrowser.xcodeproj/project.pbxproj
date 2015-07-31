@@ -14,6 +14,8 @@
 		EBB83FB51B6A289B004EC941 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB83FB41B6A289B004EC941 /* Images.xcassets */; };
 		EBB83FB81B6A289B004EC941 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBB83FB61B6A289B004EC941 /* LaunchScreen.xib */; };
 		EBB83FC41B6A289B004EC941 /* ADo_AvatarBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB83FC31B6A289B004EC941 /* ADo_AvatarBrowserTests.m */; };
+		EBB83FCE1B6A28DC004EC941 /* luffy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBB83FCD1B6A28DC004EC941 /* luffy.jpg */; };
+		EBB83FD11B6A2948004EC941 /* ADo_AvatarBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB83FD01B6A2948004EC941 /* ADo_AvatarBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		EBB83FBD1B6A289B004EC941 /* ADo_AvatarBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADo_AvatarBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB83FC21B6A289B004EC941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBB83FC31B6A289B004EC941 /* ADo_AvatarBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADo_AvatarBrowserTests.m; sourceTree = "<group>"; };
+		EBB83FCD1B6A28DC004EC941 /* luffy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = luffy.jpg; sourceTree = "<group>"; };
+		EBB83FCF1B6A2948004EC941 /* ADo_AvatarBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADo_AvatarBrowser.h; sourceTree = "<group>"; };
+		EBB83FD01B6A2948004EC941 /* ADo_AvatarBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADo_AvatarBrowser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,9 @@
 				EBB83FAE1B6A289B004EC941 /* ViewController.h */,
 				EBB83FAF1B6A289B004EC941 /* ViewController.m */,
 				EBB83FB11B6A289B004EC941 /* Main.storyboard */,
+				EBB83FCD1B6A28DC004EC941 /* luffy.jpg */,
+				EBB83FCF1B6A2948004EC941 /* ADo_AvatarBrowser.h */,
+				EBB83FD01B6A2948004EC941 /* ADo_AvatarBrowser.m */,
 				EBB83FB41B6A289B004EC941 /* Images.xcassets */,
 				EBB83FB61B6A289B004EC941 /* LaunchScreen.xib */,
 				EBB83FA71B6A289A004EC941 /* Supporting Files */,
@@ -201,6 +209,7 @@
 			files = (
 				EBB83FB31B6A289B004EC941 /* Main.storyboard in Resources */,
 				EBB83FB81B6A289B004EC941 /* LaunchScreen.xib in Resources */,
+				EBB83FCE1B6A28DC004EC941 /* luffy.jpg in Resources */,
 				EBB83FB51B6A289B004EC941 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBB83FD11B6A2948004EC941 /* ADo_AvatarBrowser.m in Sources */,
 				EBB83FB01B6A289B004EC941 /* ViewController.m in Sources */,
 				EBB83FAD1B6A289A004EC941 /* AppDelegate.m in Sources */,
 				EBB83FAA1B6A289A004EC941 /* main.m in Sources */,
